@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: .03em;
+}
+
+/*nav bar*/
+
+nav {
+  background-color: #ffd247;
+  height: 8em;
+}
+
+#statusBar, #logo{
+display: block;
+margin: 0 auto;
+}
+
+#location {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 1em;;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 3%;
+  background-color: #ffd247;
+}
+
+#backButton {
+    position: absolute;
+    padding-top: 2em;
+}
+
+#back{
+  float: left;
+  margin-left: .2em;
+  font-size: 1.2em;
+  padding-top: .25em;
+}
+
+#leftChevron {
+  float: left;
+  padding-left: .2em;
+}
+
+.bus {
+  padding: 5%;
+  border-bottom: .06em solid lightgray;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.busline {
+  font-weight: bold;
+  float: left;
+  margin-right: 1em;
+  font-size: 1.2em;
+  margin-top: -.1em;
+}
+
+.map {
+  background-image: url("../images/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #cccccc;
+  height: 30em;
+  width: 100%;
+}
+
+
+#out {
+    background-color: red;
+    color: white;
+}
+
+#reroute {
+    background-color: lightgray;
+}
+
+
+.frequency {
+  float: right;
+  margin-top: -1em;
+}

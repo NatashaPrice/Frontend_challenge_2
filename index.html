@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>frontend_challenge</title>
+  <link rel="stylesheet" href="/frontend_challenge/css/reset.css">
+  <link rel="stylesheet" href="/frontend_challenge/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <script src="https://use.fontawesome.com/37471687aa.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+  <body>
+
+
+<!--the navigation section-->
+    <nav>
+      <img src="images/statusBar.png" alt="status bar" id="statusBar">
+
+      <div id="backButton">
+        <div id="leftChevron">
+      <span class="fa fa-chevron-left fa-2x" aria-hidden="true"></span>
+        </div>
+        <p id="back">back</p>
+      </div>
+        <p id="location">Washington &amp; State</p>
+    </nav>
+
+    <!--the map-->
+   <div class ="map"></div>
+
+   <!--The bus class-->
+    <ul class="bus-class">
+
+                <li>
+                 <h2>Eastbound</h2>
+                 <div class="bus">
+                   <p class="busline">60</p>
+                   <p class="destination">Randolph/Harbor Dr</p>
+                   <p class="frequency">1, 21, 41 min</p>
+                 </div>
+               </li>
+
+               <li>
+                 <div class="bus">
+                   <p class="busline">124</p>
+                   <p class="destination">Navy Pier</p>
+                   <p class="frequency">3, 13, 23 min</p>
+                 </div>
+                 </li>
+
+                 <li>
+                 <h2>Northbound</h2>
+                 <div class="bus">
+                   <p class="busline">151</p>
+                   <p class="destination">Devon/Clark</p>
+                   <p class="frequency">5, 21, 37 min</p>
+                  </div>
+                  </li>
+
+                <li>
+                 <h2>Southbound</h2>
+                 <div class="bus">
+                   <p class="busline">J14</p>
+                   <p class="destination">103rd/Stony Island</p>
+                   <p class="frequency">5, 20, 35 min</p>
+                 </div>
+               </li>
+
+               <li>
+                 <div class="bus">
+                   <p class="busline">124</p>
+                   <p class="destination">Navy Pier</p>
+                   <p class="frequency">10, 20, 30 min</p>
+                 </div>
+               </li>
+
+               <li>
+                 <h2 id="reroute">Reroute</h2>
+                 <div class="bus">
+                   <p class="busline">6x</p>
+                   <p class="destination">Jackson Park Express</p>
+                   <p class="frequency">N/A</p>
+                 </div>
+               </li>
+
+               <li>
+                 <h2 id="out">Out of service</h2>
+                 <div class="bus">
+                   <p class="busline">4</p>
+                   <p class="destination">Cottage Grove</p>
+                   <p class="frequency">Resumes 12:10am</p>
+                 </div>
+               </li>
+
+               <li>
+                 <div class="bus">
+                   <p class="busline">20</p>
+                   <p class="destination">Madison</p>
+                   <p class="frequency">Resumes 12:10am</p>
+                 </div>
+               </li>
+
+                 <li>
+                 <div class="bus">
+                   <p class="busline">157</p>
+                   <p class="destination">Streeterville/Taylor</p>
+                   <p class="frequency">Resumes 6:00am</p>
+                 </div>
+               </li>
+
+           </ul>
+
+  </body>
+</html>
